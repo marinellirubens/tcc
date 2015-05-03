@@ -1,4 +1,4 @@
-<?php require_once("cabecalho.php");
+﻿<?php require_once("cabecalho.php");
 require_once("banco-produto.php");
 
 		$id = $_POST["id"];
@@ -8,7 +8,7 @@ require_once("banco-produto.php");
 		$categoria_id = $_POST["categoria_id"];
 
 		if(array_key_exists('usado',$_POST)){
-			$usado = "true";
+			 $usado = "true";
 		}else{
 			$usado = "false";
 		}
