@@ -1,4 +1,5 @@
-<?php require_once("cabecalho.php");
+<?php 
+require_once("cabecalho.php");
 require_once("logica-usuario.php");
 ?>
 				<h1>Seja bem-vindo! feito pelo github</h1>
